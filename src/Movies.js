@@ -6,12 +6,12 @@ function Movie({id, year, title, summary, poster}) {
     return <h4>{title}</h4>;
 }
 
-Movie.PropTypes= {
+Movie.propTypes = {
     id: PropTypes.number.isRequired,
     year: PropTypes.number.isRequired,
     title: PropTypes.string.isRequired,
-    summary: PropTypes.summary.isRequired,
+    summary: PropTypes.string.isRequired,
     poster: PropTypes.string.isRequired,
 };
 
-export default App;
+export default Movie;
