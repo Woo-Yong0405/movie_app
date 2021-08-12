@@ -2,11 +2,19 @@ import react from 'react';
 import PropTypes from 'prop-types';
 
 function App() {
-  return (
-    <div className="App">
-    <h1>Hello!</h1>;
-  </div>
-  );
+  state = {
+    isLoading: true,
+    movies: []
+  };
+  componentDidMount(); {
+    setTimeout(() => {
+      this.setState({isLoading: false});
+    }, 6000);
+  }
+  render(); {
+    const {isLoading} = this.state;
+    return <div>{isLoading ? "Loading..." : "We are ready!"}</div>;
+  }
 }
 
 export default App;
