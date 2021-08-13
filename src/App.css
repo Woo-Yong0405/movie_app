@@ -33,11 +33,11 @@ body {
   background-color: rgba(0, 0, 0, 0.4);
   width: 45%;
   display: flex;
-  margin-bottom: 30px;
   justify-content: space-between;
   margin: 5px, 0px;
   padding: 10px;
   max-height: 300px;
+  margin-bottom: 30px;
 }
 .movie_data {
   margin: none;
